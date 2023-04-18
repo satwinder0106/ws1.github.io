@@ -1,0 +1,127 @@
+html, body {
+  background: url(headerimage.jpg) no-repeat fixed center; 
+  background-size:100%
+  font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+  color:purple
+
+
+}
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44;
+}
+
+h1 {
+  font-size: 3rem; 
+  color: purple;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.button1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #4CA888;
+  color: white;
+}
+
+.container {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 100%;
+  height: 100%;
+  /* Setup */
+  position: relative;
+  justify-content: center;
+  text-align:center;
+  color:purple;
+  outline:dashe;
+
+}
+
+.child {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+ 
+ * {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-lable {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-txt {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-lable, .col-txt, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
