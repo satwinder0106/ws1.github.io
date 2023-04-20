@@ -5,34 +5,32 @@
 
 </head>
 <body>
-
-<h1>Please provide the details</h1>
-
-<div class="container">
-  <form action="adddata.php" method="post">
-  <div class="row">
-    <div class="col-lable">
-      <label for="fname">Name</label>
+  <div class="container">
+    <h1>Please provide the details</h1>
+    <form action="adddata.php" method="post">
+      
+      <div class="row">
+        <div class="col-lable">
+          <label for="fname">Name</label>
+        </div>
+        <div class="col-txt">
+          <input type="text" id="fname" name="fname">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lable">
+          <label for="femail">Email</label>
+        </div>
+        <div class="col-txt">
+          <input type="text" id="femail" name="femail">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+      </form>
     </div>
-    <div class="col-txt">
-      <input type="text" id="fname" name="fname">
-    </div>
-  </div>
-    <br>
-    <div class="row">
-    <div class="col-lable">
-      <label for="fname">Name</label>
-    </div>
-    <div class="col-txt">
-      <input type="text" id="fname" name="femail">
-    </div>
-  </div>
-  <br>
-  <div class="row">
-    <input type="submit" value="Submit">
-  </div>
-  </form>
-</div>
-
-</body>
+  </body>
 </html>

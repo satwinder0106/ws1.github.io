@@ -1,10 +1,9 @@
 html, body {
-  background: url(headerimage.jpg) no-repeat fixed; 
-  background-size:95%
+  background: url(headerimage.jpg) no-repeat fixed;
   font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-  color:purple
-
+  text-transform: uppercase;
+  color:purple;
+  background-size: cover;
 
 }
 hr {
@@ -45,14 +44,20 @@ h1 {
   font-family: arial;
   font-size: 24px;
   margin: 25px;
-  width: 90%;
   height: 80%;
   /* Setup */
   position: relative;
   justify-content: center;
   text-align:center;
   color:purple;
-  outline:dashe;
+  outline:solid;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  box-align: center;
+  position: relative;
+  max-width: 70%;
+  margin: auto;
 
 }
 
@@ -93,11 +98,11 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
+/*.container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-}
+}*/
 
 .col-lable {
   float: left;
